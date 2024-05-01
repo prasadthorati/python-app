@@ -5,6 +5,9 @@ from docx import Document
 import PyPDF2
 from io import BytesIO
 import re
+from dotenv import load_dotenv
+
+load_dotenv()
 
 app = Flask(__name__)
 
