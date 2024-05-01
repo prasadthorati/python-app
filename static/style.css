@@ -1,0 +1,64 @@
+/* Overall body and page settings */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+}
+
+/* Main container styling, added overflow for content management */
+.container {
+    width: 100%;
+    max-width: 680px;
+    background: #ffffff;
+    padding: 30px;
+    margin-top: 20px; /* ensure margin to separate from top */
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    overflow: auto; /* add overflow to manage internal content */
+}
+
+/* Form elements styling */
+input[type="file"], textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-top: 8px; /* ensure margin for separation */
+    border: 2px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Button styling for form submission */
+button {
+    width: 100%;
+    padding: 12px 0;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px; /* increased margin-top to ensure separation */
+}
+
+/* Result Display Styling */
+.result {
+    padding: 20px;
+    margin-top: 20px; /* ensure ample margin above the results for separation */
+    background-color: #e3f2fd;
+    border-left: 5px solid #2196f3;
+    border-radius: 5px;
+    color: #2c3e50;
+}
+
+/* Headers and text adjustments */
+h1 {
+    margin-bottom: 20px; /* ensure margin below header */
+}
+
+h2, p {
+    margin-top: 10px; /* ensure margin at top of elements for clarity */
+}
