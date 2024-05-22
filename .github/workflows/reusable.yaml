@@ -1,7 +1,7 @@
 # .github/workflows/main.yml
 name: Main Workflow
 on:
-  pull_request:
+  push:
     branches: [ main ]
 
 jobs:
