@@ -1,0 +1,11 @@
+# .github/workflows/main.yml
+name: Main Workflow
+on:
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  my-template:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: prasadthorati/maven-web-app/.github/workflows/reusable.yaml@main
